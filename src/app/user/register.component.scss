@@ -1,0 +1,53 @@
+@import './login.component.scss';
+
+// .weui-cell{
+//   width: 7.3867rem;
+//   height: 0.8533rem;
+//   line-height: 0.8533rem;
+//   border-bottom: 0.0133rem solid #dadada;
+//   margin-bottom: 0.4rem;
+// }
+
+.go_top {
+  width: 60px;
+  height: 60px;
+  background: url(/assets/go_top.png) no-repeat;
+  position: fixed;
+  bottom: 120px;
+  margin-left: 650px;
+}
+.weui-cell__hd{
+    margin-right: 0.266666rem;
+}
+.weui-cell{
+   padding: 10px 15px 5px 15px;
+    
+}
+.weui-cell__ft .weui-vcode-btn{
+    border: 1px solid #1597a4;
+    height: 0.533333rem;
+    font-size: 0.32rem;
+    line-height: 0.533333rem;
+    margin-top: 0.16rem;
+    border-radius: 5px;
+    color: #1597a4;
+}
+.weui-btn_disabled.weui-btn_primary{
+    background: #1597a4;
+}
+.title{
+    color: #1597a4;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.inputs.weui-cell_warn:before{
+    bottom: 0;
+    top: '';
+}
+.weui-cell_warn:before{
+    bottom: 0;
+    top: auto;
+}
+.weui-agree a{
+    color: #1597a4;
+}

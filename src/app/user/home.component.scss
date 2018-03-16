@@ -1,0 +1,323 @@
+a{
+    color: white;
+}
+.menu {
+    width: 10rem;
+    height: 1.3333rem;
+    background: #fff;
+    border-top: 0.0133rem solid #dadada;
+    position: fixed;
+    bottom: 0;
+    span {
+      width: 100%;
+      display: block;
+    }
+    .ico {
+      width: 0.6rem;
+      height: 0.6rem;
+      display: inline-block;
+      margin-top: 0.2rem;
+    }
+    .column {
+      background: url(/assets/btn_menu_1.png) no-repeat center;
+    }
+    .my {
+      background: url(/assets/btn_menu_2.png) no-repeat center;
+    }
+    .focus {
+      .scene {
+        background: url(/assets/btn_menu_focus_0.png) no-repeat center;
+      }
+      .column {
+        background: url(/assets/btn_menu_focus_1.png) no-repeat center;
+      }
+      .my {
+        background: url(/assets/btn_menu_focus_2.png) no-repeat center;
+      }
+//    a {
+//      &:link {
+//        text-decoration: none;
+//        color: #1498a5;
+//      }
+//      &:visited {
+//        text-decoration: none;
+//        color: #1498a5;
+//      }
+//      &:hover {
+//        text-decoration: none;
+//        color: #ff0000;
+//      }
+//      &:active {
+//        text-decoration: none;
+//        color: #1498a5;
+//      }
+//    }
+    }
+    .btn {
+      width: 3.2rem;
+      height: 1.3333rem;
+      border-bottom: 0.0133rem solid #dadada;
+      display: inline-block;
+      text-align: center;
+      a {
+        &:link {
+          text-decoration: none;
+          color: #cfcfcf;
+        }
+        &:visited {
+          text-decoration: none;
+          color: #cfcfcf;
+        }
+        &:hover {
+          text-decoration: none;
+          color: #ff0000;
+        }
+        &:active {
+          text-decoration: none;
+          color: #cfcfcf;
+        }
+      }
+    }
+  }
+  .menu-comment {
+    width: 10rem;
+    height: 1.3333rem;
+    background: #fff;
+    border-top: 0.0133rem solid #dadada;
+    position: fixed;
+    bottom: 0;
+    ul {
+      width: 9.2rem;
+      height: 1.3333rem;
+      margin-left: 0.4rem;
+      li {
+        float: left;
+        &.input {
+          width: 7.7333rem;
+          height: 0.8rem;
+          margin-top: 0.24rem;
+          border-radius: 0.8rem;
+          background: #f6f6f6;
+          input {
+            width: 7.7333rem;
+            height: 0.7733rem;
+            background: none;
+            float: left;
+            text-indent: 1em;
+          }
+        }
+        &.btn {
+          width: 1.0667rem;
+          height: 0.8rem;
+          line-height: 0.8rem;
+          float: right;
+          margin-top: 0.24rem;
+          font-size: 1em;
+          a {
+            &:link {
+              text-decoration: none;
+              color: #1499a3;
+            }
+            &:visited {
+              text-decoration: none;
+              color: #1499a3;
+            }
+            &:hover {
+              text-decoration: none;
+              color: #1499a3;
+            }
+            &:active {
+              text-decoration: none;
+              color: #1499a3;
+            }
+          }
+        }
+      }
+    }
+  }
+  .title-search {
+    width: 10rem;
+    height: 1.2rem;
+    border-top: 0.0133rem solid #dadada;
+    ul {
+      width: 9.2rem;
+      height: 1.2rem;
+      margin-left: 0.4rem;
+      li {
+        float: left;
+        &.input {
+          width: 7.7333rem;
+          height: 0.8rem;
+          margin-top: 0.1333rem;
+          border-radius: 0.8rem;
+          background: url(/assets/ico_search.png) no-repeat 0.2667rem center;
+          background-color: #f6f6f6;
+          input {
+            width: 7.7333rem;
+            height: 0.7733rem;
+            background: none;
+            float: left;
+            text-indent: 4em;
+          }
+        }
+        &.btn {
+          width: 1.0667rem;
+          height: 0.8rem;
+          line-height: 0.8rem;
+          float: right;
+          margin-top: 0.16rem;
+          font-size: 1em;
+          a {
+            &:link {
+              text-decoration: none;
+              color: #1499a3;
+            }
+            &:visited {
+              text-decoration: none;
+              color: #1499a3;
+            }
+            &:hover {
+              text-decoration: none;
+              color: #1499a3;
+            }
+            &:active {
+              text-decoration: none;
+              color: #1499a3;
+            }
+          }
+        }
+      }
+    }
+  }
+  #checkbox {
+    width: 0.2667rem;
+    height: 0.2667rem;
+  }
+  .go_top {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(/assets/go_top.png) no-repeat;
+    position: fixed;
+    bottom: 1.6rem;
+    margin-left: 8.6667rem;
+  }
+  .win {
+    width: 5.3333rem;
+    height: 3.16rem;
+    background: rgba(109,109,109,.9);
+    border-radius: 0.1333rem;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -1.5733rem 0 0 -2.5467rem;
+    text-align: center;
+    .ico {
+      width: 5.0933rem;
+      height: 0.5467rem;
+      background: url(/assets/ico_gou.png) no-repeat center;
+      margin-top: 0.4267rem;
+    }
+    .fall {
+      background: url(/assets/ico_cha.png) no-repeat center;
+    }
+    .text {
+      width: 4.56rem;
+      min-height: 0.7333rem;
+      max-height: 0.7333rem;
+      margin-left: 0.2667rem;
+      margin-top: 0.2667rem;
+      color: #fff;
+      overflow: hidden;
+      font-size: .65em;
+    }
+    .btn {
+      width: 2.5067rem;
+      height: 0.6133rem;
+      line-height: 0.6133rem;
+      background: url(/assets/btn_small.png) no-repeat;
+      text-align: center;
+      margin-top: 0.2667rem;
+      display: inline-block;
+    }
+    .top {
+      margin-top: 1.0667rem;
+    }
+  }
+  /*cover*/
+  #cover {
+    .pic {
+      height: 10.6667rem;
+      overflow: hidden;
+      font-size: 0;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .main {
+    width: 100%;
+    .btns {
+      margin-top: 0.5333rem;
+      text-align: center;
+    }
+    .btn {
+      width: 3.4133rem;
+      height: 0.8533rem;
+      line-height: 0.8533rem;
+      font-size: 1em;
+      text-align: center;
+      background: url(/assets/btn_middle.png) no-repeat;
+      display: inline-block;
+    }
+    .login {
+      margin-left: 0.4rem;
+    }
+    .tips {
+      width: calc(100% - 1.36rem);
+      font-size: .8em;
+      text-align: right;
+      margin: 0.2933rem 1.36rem 0 0;
+      float: right;
+    }
+  }
+  .other {
+    width: 10rem;
+    text-align: center;
+    .title {
+      width: 7.4rem;
+      display: inline-block;
+      background: url(/assets/other_title_line.png) no-repeat center;
+      margin-top: 1.2rem;
+      border: 0;
+      .txt {
+        width: 2.5333rem;
+        font-size: .6em;
+        background: #fff;
+        color: #c8c8c8;
+        display: inline-block;
+      }
+    }
+    .btn {
+      width: 0.8533rem;
+      height: 0.8533rem;
+      line-height: 0.8533rem;
+      font-size: 0rem;
+      display: inline-block;
+    }
+    .qq {
+      background: url(/assets/ico_cover_qq.png) no-repeat;
+      margin-top: 0.6667rem;
+      background-size: cover;
+    }
+    .wx {
+      background: url(/assets/ico_cover_wx.png) no-repeat;
+      margin-left: 1.5467rem;
+      background-size: cover;
+    }
+    .wb {
+      background: url(/assets/ico_cover_wb.png) no-repeat;
+      margin-left: 1.5467rem;
+      background-size: cover;
+    }
+  }
+  

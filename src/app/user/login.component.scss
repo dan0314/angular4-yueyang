@@ -1,0 +1,104 @@
+.inputs {
+    width: 7.3867rem;
+    margin: 2.88rem 0 0 1.3067rem;
+    .part {
+      margin-top: 2.6667rem;
+    }
+    .input {
+      width: 7.3867rem;
+      height: 0.8533rem;
+      line-height: 0.8533rem;
+      border-bottom: 0.0133rem solid #dadada;
+      margin-bottom: 0.4rem;
+      input {
+        width: 6.4667rem;
+        height: 0.8533rem;
+        line-height: 0.8533rem;
+        border-bottom: 0.0133rem solid #dadada;
+        text-indent: 1em;
+        vertical-align: middle;
+        &.yzm {
+          width: 4.0667rem;
+        }
+      }
+      .get {
+        width: 2.1333rem;
+        height: 0.5333rem;
+        line-height: 0.5333rem;
+        text-align: center;
+        float: right;
+        border-radius: 0.0667rem;
+        border: 0.0133rem solid #1598a4;
+        margin-top: 0.1067rem;
+        font-size: 0.16rem;
+        a {
+          width: 2.1333rem;
+          height: 0.5333rem;
+          display: block;
+        }
+      }
+      .disable {
+        border: 0.0133rem solid #a9a9a9;
+        color: #a9a9a9;
+      }
+    }
+    .select {
+      width: 3.4133rem;
+      height: 0.8533rem;
+      line-height: 0.8533rem;
+      border: 0.0133rem solid #dadada;
+      margin-bottom: 0.4rem;
+      border-radius: 0.1333rem;
+      select {
+        width: 2.4rem;
+        height: 0.8533rem;
+        line-height: 0.8533rem;
+        border: 0;
+        float: left;
+        background: url(/assets/ico_drop.png) no-repeat right;
+      }
+      .tit {
+        position: absolute;
+        margin-top: -1.3333rem;
+        font-size: 1.1em;
+      }
+    }
+    .checkbox {
+      width: 7.3867rem;
+      height: 0.8533rem;
+      line-height: 0.8533rem;
+      margin: -0.4rem 0 0.4rem 0;
+      color: #a9a9a9;
+    }
+    .btn {
+      width: 7.3867rem;
+      height: 0.8533rem;
+      line-height: 0.8533rem;
+      background: #1599a3;
+    }
+    .ico {
+      height: 0.5067rem;
+      width: 0.4267rem;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .phone {
+      background: url(/assets/ico_phone.png) no-repeat;
+      background-size: cover;
+      height: 0.7rem;
+    }
+    .password {
+      background: url(/assets/ico_password.png) no-repeat;
+      background-size: cover;
+    }
+    .yzm-ico {
+      background: url(/assets/ico_yzm.png) no-repeat center;
+    }
+    .date {
+      background: url(/assets/ico_date.png) no-repeat center;
+    }
+    .sex {
+      background: url(/assets/ico_sex.png) no-repeat center;
+    }
+  }
+  

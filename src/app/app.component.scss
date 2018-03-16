@@ -1,0 +1,122 @@
+@import './../styles.scss';
+
+//天知道对方是怎么设计的css
+
+.wrapper {
+  width: 10rem;
+  height: 17.7867rem;
+  margin: 0 auto;
+  background: #fff;
+  position: absolute;
+  .btn {
+    text-align: center;
+    a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      &:link {
+        text-decoration: none;
+        color: #fff;
+      }
+      &:visited {
+        text-decoration: none;
+        color: #fff;
+      }
+      &:hover {
+        text-decoration: none;
+        color: #ff0000;
+      }
+      &:active {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+  .btn-b {
+    text-align: center;
+    a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      color: #fff;
+      &:link {
+        text-decoration: none;
+        color: $main-color;
+      }
+      &:visited {
+        text-decoration: none;
+        color: $main-color;
+      }
+      &:hover {
+        text-decoration: none;
+        color: #ff0000;
+      }
+      &:active {
+        text-decoration: none;
+        color: $main-color;
+      }
+    }
+  }
+}
+.title {
+  width: 100%;
+  height: 1.1733rem;
+  line-height: 1.1733rem;
+  font-size: 1em;
+  color: #1598a4;
+  text-align: center;
+  border-bottom: 0.0133rem solid #dadada;
+  .btn {
+    width: 0.28rem;
+    height: 0.5067rem;
+    margin: 0.32rem 0 0 0.4rem;
+    a {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  .back {
+    background: url(/assets/btn_back.png) no-repeat;
+    float: left;
+    position: absolute;
+    background-size: cover;
+  }
+  .search {
+    width: 0.4667rem;
+    background: url(/assets/btn_search.png) no-repeat;
+    float: right;
+    margin-right: 0.4rem;
+  }
+  .share {
+    width: 0.4667rem;
+    background: url(/assets/btn_share.png) no-repeat;
+    float: right;
+    margin-right: 0.4rem;
+  }
+  .favorite {
+    width: 0.4667rem;
+    background: url(/assets/btn_favorite.png) no-repeat;
+    float: right;
+    margin-right: 0.1333rem;
+  }
+  .favorited {
+    background: url(/assets/btn_favorited.png) no-repeat;
+  }
+  .btns {
+    width: 10rem;
+    position: absolute;
+    z-index: 0;
+  }
+  .txt {
+    width: 6rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    position: absolute;
+    z-index: 0;
+    margin-left: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
