@@ -1,6 +1,6 @@
 {
   "/v1": { 
-    "target": "http://api.yy.qingclouds.cn", 
+    "target": "", 
     "secure": false
   }
 }
